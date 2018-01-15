@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+	<head lang="en">
+		<meta charset="utf-8" />
+		<title>最家</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/idea.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/word.css" />
+		<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="js/base.js"></script>
+		<script type="text/javascript" src="js/nn.js"></script>
+	</head>
+
+	<body>
+		<!------------------------------head------------------------------>
+		<div class="head">
+			<div class="wrapper clearfix">
+				<div class="clearfix" id="top">
+					<h1 class="fl"><a href="index.html"><img src="img/logo.png"/></a></h1>
+					<div class="fr clearfix" id="top1">
+						<p class="fl">
+							<a href="login.html" id="login">登录</a>
+							<a href="reg.html" id="reg">注册</a>
+						</p>
+						<form action="#" method="get" class="fl">
+							<input type="text" placeholder="搜索" />
+							<input type="button" />
+						</form>
+						<div class="btn fl clearfix">
+							<a href="mygxin.html"><img src="img/grzx.png" /></a>
+							<a href="#" class="er1"><img src="img/ewm.png" /></a>
+							<a href="cart.html"><img src="img/gwc.png" /></a>
+							<p>
+								<a href="#"><img src="img/smewm.png" /></a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<ul class="clearfix" id="bott">
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="paint.html">所有商品</a>
+						<div class="sList">
+							<div class="wrapper  clearfix">
+								<a href="paint.html">
+									<dl>
+										<dt><img src="img/nav1.jpg"/></dt>
+										<dd>浓情欧式</dd>
+									</dl>
+								</a>
+								<a href="paint.html">
+									<dl>
+										<dt><img src="img/nav2.jpg"/></dt>
+										<dd>浪漫美式</dd>
+									</dl>
+								</a>
+								<a href="paint.html">
+									<dl>
+										<dt><img src="img/nav3.jpg"/></dt>
+										<dd>雅致中式</dd>
+									</dl>
+								</a>
+								<a href="paint.html">
+									<dl>
+										<dt><img src="img/nav6.jpg"/></dt>
+										<dd>简约现代</dd>
+									</dl>
+								</a>
+								
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="flowerDer.html">装饰摆件</a>
+						<div class="sList2">
+							<div class="clearfix">
+								<a href="proList.html">干花花艺</a>
+								<a href="vase_proList.html">花瓶花器</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="decoration.html">布艺软饰</a>
+						<div class="sList2">
+							<div class="clearfix">
+								<a href="zbproList.html">桌布罩件</a>
+								<a href="bzproList.html">抱枕靠垫</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="paint.html">墙式壁挂</a>
+					</li>
+					<li>
+						<a href="perfume.html">蜡艺香薰</a>
+					</li>
+					<li>
+						<a href="idea.html">创意家居</a>
+					</li>
+					<li>
+						<a href="personal.html">私人订制</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!------------------------------idea------------------------------>
+		<div class="address">
+			<div class="wrapper clearfix">
+				<a href="index.html" class="fl">首页</a>
+				<span>/</span>
+				<a href="idea.html" class="on">私人订制</a>
+			</div>
+		</div>
+		<!--m1 s-->
+
+		<!--第一部分的图片-->
+		<div id="personal">
+			<div class="meet wrapper clearfix boxSizing">
+				<p>精湛的技术，独一无二的工艺，只为为您量身定做！</p>
+				<p style="margin-bottom:10px;">--专属你的私人订制</p>
+				<!--img  width:272   height:213-->
+				<a href="#2"><img style="width:272px;height:213px;" src="img/temp/xx01.jpg" /></a>
+				<!--以下  width:200   height:200-->
+				<a href="#2"><img src="img/temp/xx106.jpg" /></a>
+				<a href="#2"><img src="img/temp/sec302.jpg" /></a>
+				<a href="#2"><img src="img/id10.jpg" /></a>
+				<a href="#2"><img src="img/temp/xx204.jpg" /></a>
+			</div>
+
+			<!--第四部分的图片    抱枕订制-->
+			<div class="dream wrapper clearfix boxSizing">
+				<a href="#2"><img src="img/per177.jpg" /></a>
+
+				<form method="post" action="#2">
+					<p style="height: 30px;line-height:30px;font-size:15px;text-align: left;">写下你的愿望清单，我们帮你实现：</p>
+					<lable>定做日期：<input type="text" /></lable>
+					<lable>她的姓名：<input type="text" /></lable>
+					<lable>材质要求：
+						<select>
+							<option>丝绸</option>
+							<option>亚麻</option>
+							<option>棉</option>
+							<option>毛</option>
+							<option>莫代尔</option>
+						</select>
+					</lable>
+					<div class="shangchuan clearfix">
+						<div class="file fl" style="width:262px;margin-right:30px;">
+							<div id="preview" style="text-align: center;line-height:200px;"><img id="imghead" width="" height=auto border=0 src='img/add02.jpg'></div>
+							<input type="file" onchange="previewImage(this)" />
+						</div>
+						<div class="discription fl" style="width:100px;">
+							<lable><textarea rows="11" cols="30" value="" style="color: #666;">请填写具体描述</textarea></lable>
+						</div>
+					</div>
+					<div class="clearfix" style="text-align: center;height:30px;width:100%;">
+						<input style="margin-left: 200px;padding:0 10px;margin-right：10px;width:60px;text-align: center;height:30px;line-height:30px;border-radius:4px;" type="reset" value="提交" />
+						<input style="margin-left:20px;padding:0 10px;width:60px;text-align: center;height:30px;line-height:30px;border-radius:4px;" type="submit" value="取消" />
+					</div>
+
+				</form>
+
+			</div>
+			<script type="text/javascript">
+				//图片上传预览    IE是用了滤镜。
+				function previewImage(file) {
+					var MAXWIDTH = 260;
+					var MAXHEIGHT = 180;
+					var div = document.getElementById('preview');
+					if(file.files && file.files[0]) {
+						div.innerHTML = '<img id=imghead>';
+						var img = document.getElementById('imghead');
+						img.onload = function() {
+							var rect = clacImgZoomParam(MAXWIDTH, MAXHEIGHT, img.offsetWidth, img.offsetHeight);
+							img.width = rect.width;
+							img.height = rect.height;
+							//                 img.style.marginLeft = rect.left+'px';
+							img.style.marginTop = rect.top + 'px';
+						}
+						var reader = new FileReader();
+						reader.onload = function(evt) { img.src = evt.target.result; }
+						reader.readAsDataURL(file.files[0]);
+					} else //兼容IE
+					{
+						var sFilter = 'filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale,src="';
+						file.select();
+						var src = document.selection.createRange().text;
+						div.innerHTML = '<img id=imghead>';
+						var img = document.getElementById('imghead');
+						img.filters.item('DXImageTransform.Microsoft.AlphaImageLoader').src = src;
+						var rect = clacImgZoomParam(MAXWIDTH, MAXHEIGHT, img.offsetWidth, img.offsetHeight);
+						status = ('rect:' + rect.top + ',' + rect.left + ',' + rect.width + ',' + rect.height);
+						div.innerHTML = "<div id=divhead style='width:" + rect.width + "px;height:" + rect.height + "px;margin-top:" + rect.top + "px;" + sFilter + src + "\"'></div>";
+					}
+				}
+
+				function clacImgZoomParam(maxWidth, maxHeight, width, height) {
+					var param = { top: 0, left: 0, width: width, height: height };
+					if(width > maxWidth || height > maxHeight) {
+						rateWidth = width / maxWidth;
+						rateHeight = height / maxHeight;
+
+						if(rateWidth > rateHeight) {
+							param.width = maxWidth;
+							param.height = Math.round(height / rateWidth);
+						} else {
+							param.width = Math.round(width / rateHeight);
+							param.height = maxHeight;
+						}
+					}
+					param.left = Math.round((maxWidth - param.width) / 2);
+					param.top = Math.round((maxHeight - param.height) / 2);
+					return param;
+				}
+			</script>
+
+			<!--第四部分的图片    香薰订制-->
+			<div class="dream wrapper clearfix boxSizing">
+				<a style="margin-top:35px!important;" href="#2"><img src="img/per178.jpg" /></a>
+				<form method="post" action="#2">
+					<p style="height: 30px;line-height:30px;font-size:15px;text-align: left;">写下你的愿望清单，我们帮你实现：</p>
+					<lable>定做日期：<input type="text" /></lable>
+					<lable>她的姓名：<input type="text" /></lable>
+					<lable>香薰类型：
+						<select>
+							<option>薰衣草 Lavender</option>
+							<option>玫瑰 Rose</option>
+							<option>檀 香 Sandalwood</option>
+							<option>紫罗兰 Viole</option>
+							<option>甜橙 Orangesweet</option>
+						</select>
+					</lable>
+					<div class="discription" style="width:400px;">
+						填写具体描述：<textarea rows="6"  value="" style="color: #666;width:500px;">请填写具体描述</textarea></lable>
+					</div>
+					<div class="clearfix" style="text-align: center;height:30px;width:100%;margin-top: 20px;">
+						<input style="margin-left: 200px;padding:0 10px;margin-right：10px;width:60px;text-align: center;height:30px;line-height:30px;border-radius:4px;" type="reset" value="提交" />
+						<input style="margin-left:20px;padding:0 10px;width:60px;text-align: center;height:30px;line-height:30px;border-radius:4px;" type="submit" value="取消" />
+					</div>
+
+				</form>
+			</div>
+		</div>
+
+		<!--返回顶部-->
+		<div class="gotop">
+			<a href="cart.html">
+				<dl>
+					<dt><img src="img/gt1.png"/></dt>
+					<dd>去购<br />物车</dd>
+				</dl>
+			</a>
+			<a href="#" class="dh">
+				<dl>
+					<dt><img src="img/gt2.png"/></dt>
+					<dd>联系<br />客服</dd>
+				</dl>
+			</a>
+			<a href="mygxin.html">
+				<dl>
+					<dt><img src="img/gt3.png"/></dt>
+					<dd>个人<br />中心</dd>
+				</dl>
+			</a>
+			<a href="#" class="toptop" style="display: none;">
+				<dl>
+					<dt><img src="img/gt4.png"/></dt>
+					<dd>返回<br />顶部</dd>
+				</dl>
+			</a>
+			<p>400-800-8200</p>
+		</div>
+		<!--footer-->
+		<div class="footer">
+			<div class="top">
+				<div class="wrapper">
+					<div class="clearfix">
+						<a href="#2" class="fl"><img src="img/foot1.png" /></a>
+						<span class="fl">7天无理由退货</span>
+					</div>
+					<div class="clearfix">
+						<a href="#2" class="fl"><img src="img/foot2.png" /></a>
+						<span class="fl">15天免费换货</span>
+					</div>
+					<div class="clearfix">
+						<a href="#2" class="fl"><img src="img/foot3.png" /></a>
+						<span class="fl">满599包邮</span>
+					</div>
+					<div class="clearfix">
+						<a href="#2" class="fl"><img src="img/foot4.png" /></a>
+						<span class="fl">手机特色服务</span>
+					</div>
+				</div>
+			</div>
+			<p class="dibu">最家家居&copy;2013-2017公司版权所有 京ICP备080100-44备0000111000号<br /> 违法和不良信息举报电话：400-800-8200，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+			</p>
+		</div>
+		<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/nav.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>
